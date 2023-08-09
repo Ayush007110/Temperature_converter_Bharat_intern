@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+   
+}
+
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    color: rgb(11, 11, 11);
+    font-size: 30px;
+    margin-right: 5px;
+    box-shadow: 0 10px 6px -6px #777;
+   
+    
+}
+.headg{
+    margin-left: 5px;
+
+}
+.headImg{
+    height: 70px;
+    width: 70px;
+}
+
+
+
+body {
+     
+    width: 100vw;
+    height: 100vh;
+    /* background-color: #2a87f1; */
+    background-image: radial-gradient(rgb(7, 7, 246),rgb(247, 9, 9),rgb(15, 239, 45));
+    /* background-color: #fbbdaf; */
+    display: grid;
+    place-items: center;
+}
+
+form {
+    
+    background-image: radial-gradient(rgb(246, 7, 87),rgb(236, 236, 32),rgb(243, 24, 133));
+    /* border-start-end-radius: 30px;
+    border-end-start-radius: 30px; */
+    /* background-color: #ff9f43; */
+    padding: 80px;
+    width: 50%;
+    margin: 100px auto;
+    text-align: center;
+    color: #151feb;
+    margin-bottom:90px;
+    box-shadow: 0 10px 6px -6px #777;
+}
+
+#Calc label {
+    font-size: 30px;
+    font-weight: 200;
+    color: #85868e;
+    
+   
+    text-transform: capitalize;
+    color: #151feb;
+}
+
+#temp {
+    color: white;
+    background-color: #151feb;
+    border: none;
+    padding: 10px;
+    height: 40px;
+    width: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+    /* border-end-end-radius: 10px;
+    border-start-start-radius: 10px; */
+    
+    
+}
+
+#temp_Diff {
+    color: white;
+    background-color: #151feb;
+    height: 40px;
+    border: none;
+    margin-top: 20px;
+   
+    font-size: 15px;
+    vertical-align: top;
+    /* border-start-start-radius: 10px; */
+    /* border-end-end-radius: 10px; */
+}
+
+[type="submit"] {
+    height: 35px;
+    margin: 20px;
+    width: 100px;
+    font-size: 15px;
+    border: none;
+
+
+    /* border-start-end-radius: 10px;
+    border-end-start-radius: 10px; */
+    color: white;
+    background-color: #151feb;
+}
+
+#result {
+    font-size: 35px;
+}
+
+
